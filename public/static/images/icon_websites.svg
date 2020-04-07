@@ -1,0 +1,25 @@
+<svg width="120" height="117" viewBox="0 0 120 117" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 57.5L15.6775 52.908C17.2455 51.3686 19.7618 51.3824 21.313 52.9388L33.2 64.8667" stroke="#E3000F"/>
+<path d="M32 21H38" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M44 21H50" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M56 21H62" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M43 50H68" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M15 88H40" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M15 92H35" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M43 45H60" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M90.5428 23.8286L96.4571 12" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M100 12L105 18L100 24" stroke="#E3000F" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M87 24L82 18L87 12" stroke="#E3000F" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M43 55H56" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M65.3536 68.6464C65.1583 68.4512 64.8417 68.4512 64.6464 68.6464C64.4512 68.8417 64.4512 69.1583 64.6464 69.3536L65.3536 68.6464ZM68 72L67.6464 72.3536C67.8417 72.5488 68.1583 72.5488 68.3536 72.3536L68 72ZM73.3536 67.3536C73.5488 67.1583 73.5488 66.8417 73.3536 66.6464C73.1583 66.4512 72.8417 66.4512 72.6464 66.6464L73.3536 67.3536ZM64.6464 69.3536L67.6464 72.3536L68.3536 71.6464L65.3536 68.6464L64.6464 69.3536ZM68.3536 72.3536L73.3536 67.3536L72.6464 66.6464L67.6464 71.6464L68.3536 72.3536Z" fill="#E3000F"/>
+<path d="M24.9642 56.5806L27.0414 54.5034C28.1934 53.3514 30.0542 53.3294 31.2332 54.4538L36 59.0001" stroke="#E3000F"/>
+<circle cx="29" cy="48" r="2" stroke="#E3000F"/>
+<circle cx="12.5" cy="21.5" r="2.5" stroke="#E3000F"/>
+<path d="M83.5 39.5C83.5 39.2239 83.2761 39 83 39C82.7239 39 82.5 39.2239 82.5 39.5H83.5ZM63 12.5C63.2761 12.5 63.5 12.2761 63.5 12C63.5 11.7239 63.2761 11.5 63 11.5V12.5ZM81 115.5H3V116.5H81V115.5ZM1.5 114V14H0.5V114H1.5ZM82.5 39.5V114H83.5V39.5H82.5ZM3 12.5H63V11.5H3V12.5ZM3 115.5C2.17157 115.5 1.5 114.828 1.5 114H0.5C0.5 115.381 1.61929 116.5 3 116.5V115.5ZM81 116.5C82.3807 116.5 83.5 115.381 83.5 114H82.5C82.5 114.828 81.8284 115.5 81 115.5V116.5ZM1.5 14C1.5 13.1716 2.17157 12.5 3 12.5V11.5C1.61929 11.5 0.5 12.6193 0.5 14H1.5Z" fill="#E3000F"/>
+<rect x="11" y="33" width="25" height="32" rx="2" stroke="#E3000F"/>
+<rect x="69" y="1" width="50" height="34" rx="2" stroke="#E3000F"/>
+<rect x="11" y="74" width="52" height="32" rx="2" stroke="#E3000F"/>
+<rect x="43" y="33" width="13" height="4" rx="1" stroke="#E3000F"/>
+<rect x="15" y="79" width="18" height="4" rx="1" stroke="#E3000F"/>
+<rect x="15" y="99" width="13" height="3" rx="1" stroke="#E3000F"/>
+</svg>

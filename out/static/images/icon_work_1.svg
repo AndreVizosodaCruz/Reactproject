@@ -1,0 +1,17 @@
+<svg width="125" height="125" viewBox="0 0 125 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M100.323 42.6397C101.924 46.9912 102.798 51.694 102.798 56.601C102.798 78.9351 84.6924 97.0404 62.3583 97.0404C40.0242 97.0404 21.9188 78.9351 21.9188 56.601C21.9188 34.2669 40.0242 16.1615 62.3583 16.1615C72.2574 16.1615 81.3257 19.7183 88.3551 25.6237" stroke="#E3000F" stroke-linecap="round"/>
+<circle cx="62.3583" cy="41.271" r="7.665" stroke="#E3000F" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M76.8954 79.5959V70.9618C76.8954 63.1765 70.3869 56.8652 62.3583 56.8652C54.3297 56.8652 47.8212 63.1765 47.8212 70.9618V79.5959" stroke="#E3000F" stroke-linecap="round" stroke-dasharray="2 4"/>
+<circle cx="85.6176" cy="52.9006" r="7.665" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M100.155 82.3906C100.155 74.4242 93.6462 67.9662 85.6176 67.9662C77.589 67.9662 71.0805 74.4242 71.0805 82.3906V91.2255" stroke="#E3000F" stroke-linecap="round"/>
+<circle cx="39.6276" cy="52.9006" r="7.665" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M123.943 21.4476C123.943 29.6222 117.316 36.249 109.141 36.249C105.35 36.249 94.3398 36.249 94.3398 36.249C94.3398 36.249 94.3398 25.8313 94.3398 21.4476C94.3398 13.273 100.967 6.64624 109.141 6.64624C117.316 6.64624 123.943 13.273 123.943 21.4476Z" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M102.269 19.3331H115.22" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M102.269 24.6194H115.22" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M77.9526 94.3972L90.1108 124" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M25.0905 82.3906C25.0905 74.4242 31.599 67.9662 39.6276 67.9662C47.6562 67.9662 54.1647 74.4242 54.1647 82.3906V91.2255" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M32.9815 17.9158H42.2324L54.9193 30.6027" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M1 17.9158H25.3165" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M1 23.202H17.9159" stroke="#E3000F" stroke-linecap="round" stroke-dasharray="2 4"/>
+<circle cx="5.22896" cy="5.22896" r="4.22896" stroke="#E3000F" stroke-linecap="round"/>
+</svg>

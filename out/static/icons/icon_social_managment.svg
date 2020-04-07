@@ -1,0 +1,42 @@
+<svg width="181" height="150" viewBox="0 0 181 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="17" width="52" height="80" rx="2" stroke="#E3000F"/>
+<rect x="64" y="1" width="52" height="80" rx="2" stroke="#E3000F"/>
+<rect x="128" y="17" width="52" height="80" rx="2" stroke="#E3000F"/>
+<path d="M1 67.1355L13.3071 54.8284C14.8692 53.2663 17.4018 53.2663 18.9639 54.8284L46.1355 82" stroke="#E3000F"/>
+<path d="M64 51.1355L76.3071 38.8284C77.8692 37.2663 80.4018 37.2663 81.9639 38.8284L109.135 66" stroke="#E3000F"/>
+<path d="M128 67.1355L140.307 54.8284C141.869 53.2663 144.402 53.2663 145.964 54.8284L173.135 82" stroke="#E3000F"/>
+<path d="M30.1355 66L36.3071 59.8284C37.8692 58.2663 40.4018 58.2663 41.9639 59.8284L53 70.8645" stroke="#E3000F"/>
+<path d="M93.1355 50L99.3071 43.8284C100.869 42.2663 103.402 42.2663 104.964 43.8284L116 54.8645" stroke="#E3000F"/>
+<path d="M157.135 66L163.307 59.8284C164.869 58.2663 167.402 58.2663 168.964 59.8284L180 70.8645" stroke="#E3000F"/>
+<path d="M1 33H53.5" stroke="#E3000F"/>
+<path d="M64 17H116.5" stroke="#E3000F"/>
+<path d="M128 33H180.5" stroke="#E3000F"/>
+<path d="M1 82L53 82" stroke="#E3000F"/>
+<path d="M1 129L180 129" stroke="#E3000F"/>
+<path d="M64 66L116 66" stroke="#E3000F"/>
+<path d="M128 82L180 82" stroke="#E3000F"/>
+<circle cx="9.5" cy="89.5" r="3.5" stroke="#E3000F"/>
+<circle cx="72.5" cy="73.5" r="3.5" stroke="#E3000F"/>
+<circle cx="136.5" cy="89.5" r="3.5" stroke="#E3000F"/>
+<circle cx="21.5" cy="89.5" r="3.5" stroke="#E3000F"/>
+<circle cx="84.5" cy="73.5" r="3.5" stroke="#E3000F"/>
+<circle cx="93" cy="129" r="4" stroke="#E3000F"/>
+<path d="M88 146H107" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M88 149H102" stroke="#E3000F" stroke-linecap="round"/>
+<circle cx="148.5" cy="89.5" r="3.5" stroke="#E3000F"/>
+<path d="M18 25H42" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M81 9H105" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M93 82L93 125" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M153 104L153 129" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M25 104L25 129" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M59 113L59 129" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M126 112L126 128" stroke="#E3000F" stroke-linecap="round"/>
+<path d="M145 25H169" stroke="#E3000F" stroke-linecap="round"/>
+<circle cx="9.5" cy="24.5" r="3.5" stroke="#E3000F"/>
+<circle cx="72.5" cy="8.5" r="3.5" stroke="#E3000F"/>
+<circle cx="136.5" cy="24.5" r="3.5" stroke="#E3000F"/>
+<circle cx="40" cy="48" r="5" stroke="#E3000F"/>
+<circle cx="103" cy="32" r="5" stroke="#E3000F"/>
+<circle cx="167" cy="48" r="5" stroke="#E3000F"/>
+<rect x="88" y="139" width="13" height="4" rx="1" stroke="#E3000F"/>
+</svg>

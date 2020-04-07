@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{"Ey5/":function(n,t,e){const i=e("q1tI");n.exports={attributes:{titleBanner:"Titulo Noticia 2",descriptionBanner:"Descri\xe7\xe3o",imgBanner:"/static/images/banner.jpg"},react:function(n){return Object.entries(n).forEach(([n,t])=>{this[n]=t}),i.createElement("div",null)}}}}]);

@@ -1,0 +1,368 @@
+backend:
+    name: git-gateway
+    # name: test-repo
+    branch: master
+media_folder: public/static/images
+public_folder: /static/images
+slug:
+  encoding: 'ascii'
+  clean_accents: true
+  sanitize_replacement: '_'
+collections:
+  - name: 'sections'
+    label: 'Sections'
+    files:
+      - label: 'Banner'
+        name: 'banner'
+        file: '/public/static/content/banner.md'
+        fields:
+          - { label: 'Section Name', name: 'sectionName', widget: 'string' }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Second Title', name: 'secTitle', widget: 'string' }
+          - { label: 'Text Scroll', name: 'textScroll', widget: 'string' }
+          - { label: 'Link Dribbble', name: 'linkDribbble', widget: 'string' }
+          - { label: 'Link Instagram', name: 'linkInstagram', widget: 'string' }
+          - { label: 'Link Facebook', name: 'linkFacebook', widget: 'string' }
+          - { label: 'Link Linkedin', name: 'linkLinkedin', widget: 'string' }
+          - label: Box
+            name: box
+            widget: object
+            fields: 
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'string' }
+              - { label: 'Button Text', name: 'buttonText', widget: string }
+              - { label: 'Button Link', name: 'buttonLink', widget: string }
+      - label: 'WeAre'
+        name: 'weAre'
+        file: '/public/static/content/weAre.md'
+        fields:
+          - { label: 'Section Name', name: 'sectionName', widget: 'string' }
+          - { label: 'Small Title', name: 'smallTitle', widget: 'string' }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Text Red', name: 'textRed', widget: 'image' }
+          - { label: 'Text Advise', name: 'textAdviser', widget: 'image' }
+      - label: 'work'
+        name: 'work'
+        file: '/public/static/content/work.md'
+        fields:
+          - { label: 'Section Name', name: 'sectionName', widget: 'string' }
+          - { label: 'Small Title', name: 'smallTitle', widget: 'string' }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - label: Data Work
+            name: dataWork
+            widget: list
+            fields: 
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Image', name: 'img', widget: 'image' }
+      - label: 'services'
+        name: 'Services'
+        file: '/public/static/content/services.md'
+        fields:
+          - { label: 'Section Name', name: 'sectionName', widget: 'string' }
+          - { label: 'Small Title', name: 'smallTitle', widget: 'string' }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string' }
+          - label: Data Services
+            name: dataServices
+            widget: list
+            fields: 
+              - { label: 'Icon', name: 'icon', widget: 'image' }
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'string' }
+      - label: 'workfolio'
+        name: 'Workfolio'
+        file: '/public/static/content/workfolio.md'
+        fields:
+          - { label: 'Section Name', name: 'sectionName', widget: 'string' }
+          - { label: 'Small Title', name: 'smallTitle', widget: 'string' }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Text Button More', name: 'buttonTextMore', widget: 'string' }
+      - label: 'ourTeam'
+        name: 'OurTeam'
+        file: '/public/static/content/ourTeam.md'
+        fields:
+          - { label: 'Section Name', name: 'sectionName', widget: 'string' }
+          - { label: 'Small Title', name: 'smallTitle', widget: 'string' }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string' }
+          - label: Data People
+            name: dataPeople
+            widget: list
+            fields: 
+              - { label: 'Avatar', name: 'avatar', widget: 'image' }
+              - { label: 'Name', name: 'name', widget: 'string' }
+              - { label: 'Role', name: 'role', widget: 'string' }
+              - { label: 'Link Linkedin', name: 'linkLinkedin', widget: 'string' }
+              - { label: 'Email', name: 'email', widget: 'string' }
+      - label: 'news'
+        name: 'News'
+        file: '/public/static/content/news.md'
+        fields:
+          - { label: 'Section Name', name: 'sectionName', widget: 'string' }
+          - { label: 'Small Title', name: 'smallTitle', widget: 'string' }
+          - { label: 'Title', name: 'title', widget: 'string' }
+      - label: 'testimonials'
+        name: 'Testimonials'
+        file: '/public/static/content/testimonials.md'
+        fields:
+          - { label: 'Section Name', name: 'sectionName', widget: 'string' }
+          - { label: 'Small Title', name: 'smallTitle', widget: 'string' }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - label: Data Testimonials
+            name: dataTestimonials
+            widget: list
+            fields:
+              - { label: 'Rating', name: 'rating', widget: 'number', default: 0, min: 0, max: 5, valueType: 'float' }
+              - { label: 'Description', name: 'description', widget: 'string' }
+              - { label: 'Picture', name: 'picture', widget: 'image' }
+              - { label: 'Name', name: 'name', widget: 'string' }
+              - { label: 'Role', name: 'role', widget: 'string' }
+      - label: 'contacts'
+        name: 'Contacts'
+        file: '/public/static/content/contacts.md'
+        fields:
+          - { label: 'Section Name', name: 'sectionName', widget: 'string' }
+          - { label: 'Small Title', name: 'smallTitle', widget: 'string' }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string' }
+  - name: 'posts'
+    label: 'Posts'
+    folder: '/public/static/content/posts'
+    create: true
+    slug: '{{slug}}'
+    identifier_field: titleBanner
+    fields:
+      - { label: 'Catefory News', name: 'categoryNews', widget: 'string' }
+      - { label: 'Title Banner', name: 'titleBanner', widget: 'string' }
+      - { label: 'Description Banner', name: 'descriptionBanner', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime', format: 'MMMM.DD.YYYY', default: '' }
+      - { label: 'Image Banner', name: 'imgBanner', widget: 'image' }
+      - widget: list
+        name: sections
+        label: Sections
+        required: false
+        types:
+          - name: firstTitle
+            widget: object
+            label: First Title
+            fields:
+              - widget: string
+                name: firstTitle
+                label: First Title
+              - widget: hidden
+                name: type
+                label: Reference Type Name
+                required: true
+                default: firstTitle
+          - name: imgContent
+            widget: object
+            label: Image Content
+            fields:
+              - name: imgContent
+                widget: image
+                label: Image Content
+              - widget: hidden
+                name: type
+                label: Reference Type Name
+                required: true
+                default: imgContent
+          - name: titleBlock
+            widget: object
+            label: Title Block
+            fields:
+              - name: titleBlock
+                widget: string
+                label: Title Block
+              - widget: hidden
+                name: type
+                label: Reference Type Name
+                required: true
+                default: titleBlock
+          - name: textBlock
+            widget: object
+            label: Text Block
+            fields: 
+              - name: textBlock
+                widget: string
+                label: Text Block
+              - widget: hidden
+                name: type
+                label: Reference Type Name
+                required: true
+                default: textBlock
+          - name: textSecBlock
+            widget: object
+            label: Text Second Block
+            fields:
+              - name: textSecBlock
+                widget: string
+                label: Text Second Block
+              - widget: hidden
+                name: type
+                label: Reference Type Name
+                required: true
+                default: textSecBlock
+          - name: imgFooter
+            widget: object
+            label: Image Footer
+            fields:
+              - name: imgFooter
+                widget: image
+                label: Image Footer
+              - widget: hidden
+                name: type
+                label: Reference Type Name
+                required: true
+                default: imgFooter
+          - name: dataSlider
+            widget: object
+            label: Data Slider
+            fields:
+              - name: data
+                widget: list
+                label: Data
+                fields:
+                  - name: image
+                    widget: image
+                    label: Image
+                  - name: description
+                    widget: string
+                    label: Description Image
+                  - widget: hidden
+                    name: type
+                    label: Reference Type Name
+                    required: true
+                    default: dataSlider
+  - name: 'works'
+    label: 'Works'
+    folder: '/public/static/content/works'
+    create: true
+    slug: '{{slug}}'
+    identifier_field: titleBanner
+    fields:
+      - { label: 'Title Banner', name: 'titleBanner', widget: 'string' }
+      - { label: 'Description Banner', name: 'descriptionBanner', widget: 'string' }
+      - { label: 'Image Banner', name: 'imgBanner', widget: 'image' }
+      - widget: list
+        name: sections
+        label: Sections
+        required: false
+        types:
+          - name: firstTitle
+            widget: object
+            label: First Title
+            fields:
+              - widget: string
+                name: firstTitle
+                label: First Title
+              - widget: hidden
+                name: type
+                label: Reference Type Name
+                required: true
+                default: firstTitle
+          - name: imgContent
+            widget: object
+            label: Image Content
+            fields:
+              - name: imgContent
+                widget: image
+                label: Image Content
+              - widget: hidden
+                name: type
+                label: Reference Type Name
+                required: true
+                default: imgContent
+          - name: dataWorks
+            widget: object
+            label: Data Works
+            fields:
+              - name: data
+                widget: list
+                label: Data
+                fields:
+                  - name: title
+                    widget: string
+                    label: Title
+                  - name: dataContent
+                    widget: list
+                    label: Data Content
+                    fields:
+                      - name: link
+                        widget: string
+                        label: Link
+                        required: false
+                      - name: text
+                        widget: string
+                        label: Text
+                  - widget: hidden
+                    name: type
+                    label: Reference Type Name
+                    required: true
+                    default: dataWorks
+          - name: titleBlock
+            widget: object
+            label: Title Block
+            fields:
+              - name: titleBlock
+                widget: string
+                label: Title Block
+              - widget: hidden
+                name: type
+                label: Reference Type Name
+                required: true
+                default: titleBlock
+          - name: textBlock
+            widget: object
+            label: Text Block
+            fields: 
+              - name: textBlock
+                widget: string
+                label: Text Block
+              - widget: hidden
+                name: type
+                label: Reference Type Name
+                required: true
+                default: textBlock
+          - name: textSecBlock
+            widget: object
+            label: Text Second Block
+            fields:
+              - name: textSecBlock
+                widget: string
+                label: Text Second Block
+              - widget: hidden
+                name: type
+                label: Reference Type Name
+                required: true
+                default: textSecBlock
+          - name: imgFooter
+            widget: object
+            label: Image Footer
+            fields:
+              - name: imgFooter
+                widget: image
+                label: Image Footer
+              - widget: hidden
+                name: type
+                label: Reference Type Name
+                required: true
+                default: imgFooter
+          - name: dataSlider
+            widget: object
+            label: Data Slider
+            fields:
+              - name: data
+                widget: list
+                label: Data
+                fields:
+                  - name: image
+                    widget: image
+                    label: Image
+                  - name: description
+                    widget: string
+                    label: Description Image
+                  - widget: hidden
+                    name: type
+                    label: Reference Type Name
+                    required: true
+                    default: dataSlider
