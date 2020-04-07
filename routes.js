@@ -7,5 +7,5 @@ const routes = module.exports = require('next-routes')()
 routes
 .add({ name: 'index', pattern: '/:slug?', page: 'index' })
 .add({ name: 'legal', pattern: '/legal?', page: 'legal' })
-.add({ name: 'newsDetail', pattern: '/news/:slug?', page: 'news' })
-.add({ name: 'worksDetaul', pattern: '/works/:slug?', page: 'works' })
+.add({ name: 'newsDetail', pattern: '/news/:slug?', page: 'newsDetail' })
+.add({ name: 'worksDetaul', pattern: '/works/:slug?', page: 'worksDetail' })
